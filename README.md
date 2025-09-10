@@ -1,85 +1,37 @@
-# 벼락치기 코테
+# 📖 벼락치기 코테 준비
 
-## 9/6 ~ 9/7 (주말)
-
-| 체크  | 번호   | 제목         | 난이도       | 링크                                         |
-|-----|------|------------|-----------|--------------------------------------------|
-| [x] | 1193 | 분수찾기       | Bronze I  | [문제](https://www.acmicpc.net/problem/1193) |
-| [ ] | 1652 | 누울 자리를 찾아라 | Silver V  | [문제](https://www.acmicpc.net/problem/1652) |
-| [ ] | 1018 | 체스판 다시 칠하기 | Silver IV | [문제](https://www.acmicpc.net/problem/1018) |
-| [ ] | 1063 | King       | Silver IV | [문제](https://www.acmicpc.net/problem/1063) |
-| [ ] | 1515 | 수 이어 쓰기    | Silver IV | [문제](https://www.acmicpc.net/problem/1515) |
-
-**도전 문제**
-
-| 체크  | 번호   | 제목     | 난이도    | 링크                                         |
-|-----|------|--------|--------|--------------------------------------------|
-| [ ] | 1722 | 순열의 순서 | Gold V | [문제](https://www.acmicpc.net/problem/1722) |
+> 9월 초 시험 대비 3일 벼락치기 플랜
+> 목표: **자바 문법 정리 → 탐색/시뮬레이션 심화 → 백트래킹·DP·그래프 보강**
 
 ---
 
-## 9/8 (월)
+## 📅 학습 일정
 
-| 체크  | 번호    | 제목     | 난이도        | 링크                                          |
-|-----|-------|--------|------------|---------------------------------------------|
-| [ ] | 2606  | 바이러스   | Silver II  | [문제](https://www.acmicpc.net/problem/2606)  |
-| [ ] | 16173 | 점프왕 쩰리 | Bronze III | [문제](https://www.acmicpc.net/problem/16173) |
-| [ ] | 2210  | 숫자판 점프 | Silver III | [문제](https://www.acmicpc.net/problem/2210)  |
-| [ ] | 1326  | 폴짝폴짝   | Gold II    | [문제](https://www.acmicpc.net/problem/1326)  |
+* **[Day1](./Day1.md)** — 자바 필수 문법 & 기본 패턴 (2시간 30분 학습)
 
-**도전 문제**
+    * I/O, 배열 & 문자열
+    * DFS/BFS, 백트래킹, 정렬/투포인터, 자료구조
+    * 워밍업 문제 풀이 + 다음날 문제 세트 준비
 
-| 체크  | 번호   | 제목  | 난이도     | 링크                                         |
-|-----|------|-----|---------|--------------------------------------------|
-| [ ] | 2589 | 보물섬 | Gold II | [문제](https://www.acmicpc.net/problem/2589) |
+* **[Day2](./Day2.md)** — 화요일 집중 (DFS/BFS 심화 + 시뮬레이션)
 
----
+    * BFS/DFS 방문순서 패턴 고착화
+    * BFS 최단거리·거리배열 숙지
+    * 시뮬레이션 + BFS 통합(랩실 배정, 숫자판 점프)
+    * 보물섬(최장 BFS), 마법사 상어(시뮬레이션 골드)
 
-## 9/9 (화)
+* **[Day3](./Day3.md)** — 수요일 집중 (백트래킹 + DP + 그래프)
 
-| 체크  | 번호    | 제목              | 난이도       | 링크                                          |
-|-----|-------|-----------------|-----------|---------------------------------------------|
-| [ ] | 20006 | 랩실 배정           | Silver II | [문제](https://www.acmicpc.net/problem/20006) |
-| [ ] | 20301 | 쿠키 애호가          | Bronze I  | [문제](https://www.acmicpc.net/problem/20301) |
-| [ ] | 24480 | 알고리즘 수업 – DFS 2 | Silver I  | [문제](https://www.acmicpc.net/problem/24480) |
-| [ ] | 24445 | 알고리즘 수업 – BFS 1 | Silver I  | [문제](https://www.acmicpc.net/problem/24445) |
-| [ ] | 25401 | 이상한 과자 가게       | Bronze II | [문제](https://www.acmicpc.net/problem/25401) |
-| [ ] | 21610 | 마법사 상어와 비바라기    | Gold I    | [문제](https://www.acmicpc.net/problem/21610) |
+    * 순열/조합 백트래킹
+    * DP 경로/배낭/누적합
+    * 투포인터·누적합 심화 (부분합, 구간합)
+    * 다익스트라(최단경로 필수)
+    * 그래프 판별/분리집합
 
 ---
 
-## 9/10 (수)
+## ⏱️ 규칙
 
-| 체크  | 번호   | 제목     | 난이도        | 링크                                         |
-|-----|------|--------|------------|--------------------------------------------|
-| [ ] | 1347 | 미로 만들기 | Silver III | [문제](https://www.acmicpc.net/problem/1347) |
-| [ ] | 1697 | 숨바꼭질   | Silver I   | [문제](https://www.acmicpc.net/problem/1697) |
-| [ ] | 2644 | 촌수계산   | Silver II  | [문제](https://www.acmicpc.net/problem/2644) |
-| [ ] | 3085 | 사탕 게임  | Silver I   | [문제](https://www.acmicpc.net/problem/3085) |
-| [ ] | 4963 | 섬의 개수  | Silver II  | [문제](https://www.acmicpc.net/problem/4963) |
-
-**도전 문제**
-
-| 체크  | 번호   | 제목     | 난이도         | 링크                                         |
-|-----|------|--------|-------------|--------------------------------------------|
-| [ ] | 1707 | 이분 그래프 | Platinum II | [문제](https://www.acmicpc.net/problem/1707) |
-
-
----
-
-## 보강 문제
-
-| 체크  | 번호    | 제목         | 난이도(대략)    | 링크                                          |
-|-----|-------|------------|------------|---------------------------------------------|
-| [ ] | 1654  | 랜선 자르기     | Silver II  | [문제](https://www.acmicpc.net/problem/1654)  |
-| [ ] | 2805  | 나무 자르기     | Silver II  | [문제](https://www.acmicpc.net/problem/2805)  |
-| [ ] | 1806  | 부분합        | Gold IV    | [문제](https://www.acmicpc.net/problem/1806)  |
-| [ ] | 11659 | 구간 합 구하기 4 | Silver III | [문제](https://www.acmicpc.net/problem/11659) |
-| [ ] | 9012  | 괄호         | Silver IV  | [문제](https://www.acmicpc.net/problem/9012)  |
-| [ ] | 1874  | 스택 수열      | Silver II  | [문제](https://www.acmicpc.net/problem/1874)  |       
-| [ ] | 2164  | 카드2        | Silver IV  | [문제](https://www.acmicpc.net/problem/2164)  |
-| [ ] | 1463  | 1로 만들기     | Silver III | [문제](https://www.acmicpc.net/problem/1463)  |
-| [ ] | 1149  | RGB거리      | Silver I   | [문제](https://www.acmicpc.net/problem/1149)  |
-| [ ] | 1916  | 최소비용 구하기   | Gold V     | [문제](https://www.acmicpc.net/problem/1916)  |
-| [ ] | 1717  | 집합의 표현     | Gold V     | [문제](https://www.acmicpc.net/problem/1717)  |
-| [ ] | 16916 | 부분 문자열     | Gold IV    | [문제](https://www.acmicpc.net/problem/16916) |
+* **시간제한 엄격히**: 문제당 10–20분, 골드 이상은 30–40분
+* **못 풀면**: 풀이 확인(5–10분) → 즉시 재구현
+* **매일 밤 23:00–01:00**: 틀린 문제 리런
